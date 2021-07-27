@@ -1,5 +1,8 @@
 
 ## Parachain Paradigms
+- Parachains support light-clients, full nodes, and authority nodes. 
+- Authority nodes are called Collators in the Polkadot ecosystem. 
+- Cumulus provides the consensus implementation for a Parachain and the block production logic.
 
 ## On Native Parachain
 - A blockchain can interact with Polkadot in two main ways: as a native parachain and through a bridge parachain. 
