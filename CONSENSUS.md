@@ -11,3 +11,6 @@
 
 ### Cumulus
 - Cumulus provides interfaces and extensions to convert a Substrate FRAME runtime into a Parachain runtime. 
+- When compiling a runtime that uses Cumulus, a WASM binary is generated
+- It contains the full code of the Parachain runtime plus the validate_block functionality. 
+- This binary is required to register a Parachain on the relay chain.
